@@ -1,6 +1,6 @@
 # Personal Portfolio Website — Shuvo Roy Dipon
 
-**Batch 10 · Module 27 Assignment** — a responsive, interactive personal portfolio built with **React + Vite**.
+**** — a responsive, interactive personal portfolio built with **React + Vite**.
 
 Live portfolio: https://sterlingpharmatech.com
 
