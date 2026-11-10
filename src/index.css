@@ -1,0 +1,68 @@
+/* ===== Theme variables (light by default, dark via [data-theme]) ===== */
+:root {
+  --bg: #ffffff;
+  --bg-alt: #f4f6fb;
+  --card-bg: #ffffff;
+  --text: #1c2333;
+  --text-muted: #5b6478;
+  --primary: #6c3ce9;
+  --primary-hover: #552bbd;
+  --accent: #00b8a9;
+  --border: #e2e6f0;
+  --shadow: 0 8px 24px rgba(28, 35, 51, 0.08);
+  --nav-bg: rgba(255, 255, 255, 0.92);
+  --input-bg: #ffffff;
+  --error: #d93025;
+  --success-bg: #e6f7ee;
+  --success-text: #137333;
+}
+
+[data-theme="dark"] {
+  --bg: #0f1420;
+  --bg-alt: #151b2c;
+  --card-bg: #1a2136;
+  --text: #eef1f8;
+  --text-muted: #a3adc4;
+  --primary: #8f6bf0;
+  --primary-hover: #a587f5;
+  --accent: #2dd4bf;
+  --border: #2a3350;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --nav-bg: rgba(15, 20, 32, 0.92);
+  --input-bg: #121828;
+  --error: #ff7a72;
+  --success-bg: #123528;
+  --success-text: #5fd598;
+}
+
+/* ===== Base styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+section {
+  scroll-margin-top: 84px;
+}
+
+img {
+  max-width: 100%;
+}
