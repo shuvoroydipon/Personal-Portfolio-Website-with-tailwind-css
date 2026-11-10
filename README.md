@@ -88,7 +88,7 @@ personal-portfolio/
 ```bash
 git init
 git add .
-git commit -m "Personal Portfolio Website - Batch 10 Module 27"
+git commit -m "Personal Portfolio Website "
 git branch -M main
 git remote add origin <your-github-repository-url>
 git push -u origin main
